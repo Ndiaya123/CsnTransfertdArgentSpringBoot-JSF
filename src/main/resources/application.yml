@@ -1,0 +1,13 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /CsnTransfertArgent
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/csntransfertargent?serverTimezone=UTC
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
